@@ -14,7 +14,7 @@ Include kupka.min.js on your page
 <script src='kupka.min.js'></script>
 <script>
 	document.onload = function() {
-		Kupka.init();
+		Kupka();
 	}
 </script>
 ```
@@ -31,6 +31,7 @@ Units are pixels.
 
 ```html
 <div
+	class='kupka-wrapper'
 	data-kupka-string-identifier=''
 	data-kupka-height=''
 	data-kupka-width=''>
