@@ -12,10 +12,22 @@ Include kupka.min.js on your page
 
 ``` html
 <script src='kupka.min.js'></script>
+<script>
+	document.onload = function() {
+		Kupka.init();
+	}
+</script>
 ```
 
 Kupka uses data attributes on a wrapper element, specifying the width, height,
 and input string.
+
+1. `data-kupka-string-identifier` is required, and can be any arbitrary text, such
+as an email address.
+2. `data-kupka-height` defaults to 128.
+3. `data-kupka-width` defaults to 128.
+
+Units are pixels.
 
 ```html
 <div
@@ -24,4 +36,3 @@ and input string.
 	data-kupka-width=''/>
 ```
 
-That's it!
