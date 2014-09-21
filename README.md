@@ -12,9 +12,6 @@ Include kupka.min.js on your page
 
 ``` html
 <script src='kupka.min.js'></script>
-<script>
-	Kupka.init();
-</script>
 ```
 
 Kupka uses data attributes on a wrapper element, specifying the width, height,
@@ -27,3 +24,4 @@ and input string.
 	data-kupka-width=''/>
 ```
 
+That's it!
