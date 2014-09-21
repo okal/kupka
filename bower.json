@@ -1,0 +1,23 @@
+{
+  "name": "kupka",
+  "version": "0.0.0",
+  "homepage": "https://github.com/okal/kupka",
+  "authors": [
+    "Okal Otieno <okal@justokal.com>"
+  ],
+  "description": "Kupka: Client side generated placeholder images",
+  "main": "src/js/kupka.js",
+  "keywords": [
+    "generative-art",
+    "gravatar",
+    "placeholder-images"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
