@@ -1,0 +1,7 @@
+.kupka-wrapper {
+	margin: 0.4em;
+}
+
+.kupka-wrapper canvas {
+	background-image: url('extra_clean_paper.jpg');
+}
