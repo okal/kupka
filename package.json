@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/okal/kupka/issues"
   },
-  "homepage": "https://github.com/okal/kupka"
+  "homepage": "https://github.com/okal/kupka",
+  "dependencies": {
+    "jssha": "^1.5.0"
+  }
 }
