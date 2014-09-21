@@ -21,6 +21,7 @@
     "tests"
   ],
   "dependencies": {
-    "jssha": "~1.5.0"
+    "jssha": "~1.5.0",
+    "lodash": "~2.4.1"
   }
 }
