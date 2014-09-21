@@ -8,7 +8,7 @@ find wider use if repurposed.
 
 ## Documentation
 
-* Include kupka.min.js on your page
+Include kupka.min.js on your page
 
 ``` html
 <script src='kupka.min.js'></script>
